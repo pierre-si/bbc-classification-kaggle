@@ -1,0 +1,55 @@
+[{"stream_name":"stdout","time":10.447525199,"data":"1891 334\n"}
+,{"stream_name":"stdout","time":12.237741152,"data":"{'C': 1.0,\n"}
+,{"stream_name":"stdout","time":12.237780003,"data":" 'break_ties': False,\n"}
+,{"stream_name":"stdout","time":12.237786107,"data":" 'cache_size': 200,\n"}
+,{"stream_name":"stdout","time":12.237789951,"data":" 'class_weight': None,\n"}
+,{"stream_name":"stdout","time":12.237793558,"data":" 'coef0': 0.0,\n"}
+,{"stream_name":"stdout","time":12.237797197999999,"data":" 'decision_function_shape': 'ovr',\n"}
+,{"stream_name":"stdout","time":12.237801017,"data":" 'degree': 3,\n"}
+,{"stream_name":"stdout","time":12.237804592,"data":" 'gamma': 'scale',\n"}
+,{"stream_name":"stdout","time":12.237808135,"data":" 'kernel': 'rbf',\n"}
+,{"stream_name":"stdout","time":12.237811634,"data":" 'max_iter': -1,\n"}
+,{"stream_name":"stdout","time":12.237815256,"data":" 'probability': False,\n"}
+,{"stream_name":"stdout","time":12.237818789,"data":" 'random_state': 8,\n"}
+,{"stream_name":"stdout","time":12.237822269,"data":" 'shrinking': True,\n"}
+,{"stream_name":"stdout","time":12.237825771,"data":" 'tol': 0.001,\n"}
+,{"stream_name":"stdout","time":12.237829416,"data":" 'verbose': False}\n"}
+,{"stream_name":"stdout","time":12.306270834,"data":"{'C': [0.0001, 0.001, 0.01, 0.1, 1, 10],\n"}
+,{"stream_name":"stdout","time":12.306299418,"data":" 'degree': [1, 2, 3, 4, 5],\n"}
+,{"stream_name":"stdout","time":12.306306914,"data":" 'gamma': [1e-05, 0.0001, 0.001, 0.01, 0.1, 1, 10, 20, 50, 100],\n"}
+,{"stream_name":"stdout","time":12.306313782,"data":" 'kernel': ['linear', 'rbf', 'poly'],\n"}
+,{"stream_name":"stdout","time":12.306319711,"data":" 'probability': [True]}\n"}
+,{"stream_name":"stdout","time":12.371944019,"data":"Fitting 3 folds for each of 10 candidates, totalling 30 fits\n"}
+,{"stream_name":"stderr","time":12.381634937,"data":"[Parallel(n_jobs=-1)]: Using backend LokyBackend with 4 concurrent workers.\n"}
+,{"stream_name":"stderr","time":57.299864305,"data":"[Parallel(n_jobs=-1)]: Done  30 out of  30 | elapsed:   44.7s finished\n"}
+,{"stream_name":"stdout","time":63.803893912,"data":"The best hyperparameters from Random Search are:\n"}
+,{"stream_name":"stdout","time":63.803929452,"data":"{'probability': True, 'kernel': 'poly', 'gamma': 50, 'degree': 2, 'C': 1}\n"}
+,{"stream_name":"stdout","time":63.803937403,"data":"\n"}
+,{"stream_name":"stdout","time":63.803943451,"data":"The mean accuracy of a model with these hyperparameters is:\n"}
+,{"stream_name":"stdout","time":63.803949449,"data":"0.9592810605488893\n"}
+,{"stream_name":"stdout","time":70.783594737,"data":"The training accuracy is: \n"}
+,{"stream_name":"stdout","time":71.51398478,"data":"1.0\n"}
+,{"stream_name":"stdout","time":71.767076027,"data":"The test accuracy is: \n"}
+,{"stream_name":"stdout","time":71.767111164,"data":"0.9670658682634731\n"}
+,{"stream_name":"stdout","time":71.817088319,"data":"Classification report\n"}
+,{"stream_name":"stdout","time":71.817146677,"data":"              precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":71.817155688,"data":"\n"}
+,{"stream_name":"stdout","time":71.817161211,"data":"           0       0.93      0.97      0.95        76\n"}
+,{"stream_name":"stdout","time":71.817166636,"data":"           1       0.98      1.00      0.99        58\n"}
+,{"stream_name":"stdout","time":71.817170599,"data":"           2       0.97      0.92      0.94        63\n"}
+,{"stream_name":"stdout","time":71.817174554,"data":"           3       0.97      0.97      0.97        77\n"}
+,{"stream_name":"stdout","time":71.817178333,"data":"           4       1.00      0.97      0.98        60\n"}
+,{"stream_name":"stdout","time":71.817196992,"data":"\n"}
+,{"stream_name":"stdout","time":71.817200368,"data":"    accuracy                           0.97       334\n"}
+,{"stream_name":"stdout","time":71.817203532,"data":"   macro avg       0.97      0.97      0.97       334\n"}
+,{"stream_name":"stdout","time":71.817206653,"data":"weighted avg       0.97      0.97      0.97       334\n"}
+,{"stream_name":"stdout","time":71.81720982,"data":"\n"}
+,{"stream_name":"stderr","time":74.408382045,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2561: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":74.408471254,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":74.408476017,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":74.580846459,"data":"[NbConvertApp] Writing 20598 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":75.864044111,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2561: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":75.864094324,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":75.86410582,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":76.495150299,"data":"[NbConvertApp] Writing 299599 bytes to __results__.html\n"}
+]
